@@ -1,5 +1,5 @@
 :root {
-  --bg: #f7f2e9;
+  --bg: #e7f6e7;
   --card: #ffffff;
   --text: #1f1b16;
   --accent: #e07a5f;
@@ -17,7 +17,7 @@ body {
   place-items: center;
   font-family: "Georgia", "Times New Roman", serif;
   color: var(--text);
-  background: radial-gradient(circle at top left, #fff6e1, var(--bg));
+  background: radial-gradient(circle at top left, #f2fff0, var(--bg));
 }
 
 .card {
