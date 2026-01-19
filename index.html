@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ca">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nom i Plat Preferit</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="card">
+      <h1>Hola!</h1>
+      <p>Em vols dir el teu nom i el teu plat preferit?</p>
+
+      <form id="favorits-form" autocomplete="off">
+        <label for="nom">Nom</label>
+        <input id="nom" name="nom" type="text" placeholder="Escriu el teu nom" required />
+
+        <label for="plat">Plat preferit</label>
+        <input id="plat" name="plat" type="text" placeholder="Ex: paella" required />
+
+        <button type="submit">Enviar</button>
+      </form>
+
+      <div id="resultat" class="resultat" aria-live="polite"></div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
